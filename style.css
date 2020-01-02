@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Sulphur+Point:400,700&display=swap');
+
 #img-asset {
     background: url("https://images.pexels.com/photos/3254429/pexels-photo-3254429.jpeg");
     background-color: rgb(252, 176, 157);
@@ -20,9 +21,21 @@
 }
 
 .main {
+    color: #2b2827;
     font-family: 'Sulphur Point 700', sans-serif;
-    margin: 15%;
+    margin: 15% 15% 5% 15%;
     text-align: right;
+}
+
+.registration {
+    margin: 0 15% 10% 15%;
+    text-align: right;
+}
+
+.logo {
+    font-family: 'Black Han Sans', sans-serif;
+
+    font-size: 3em;
 }
 
 .main p {

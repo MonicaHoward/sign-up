@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Sulphur+Point:400,700&display=swap');
 #img-asset {
     background: url("https://images.pexels.com/photos/3254429/pexels-photo-3254429.jpeg");
     background-color: rgb(252, 176, 157);
@@ -21,6 +20,40 @@
 }
 
 .main {
+    font-family: 'Sulphur Point 700', sans-serif;
     margin: 15%;
-    
+    text-align: right;
 }
+
+.main p {
+    line-height: 2;
+}
+
+.form-control {
+    background: rgb(252, 176, 157);
+    border-radius: 0;
+    border-style: none;
+    border-bottom: 2px solid rgb(243, 150, 127);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background:#FCBFB0;
+    border-color: rgb(241, 75, 33);
+ }
+
+.submit-button {
+     background: rgb(241, 105, 71);
+     border: 1px solid rgb(219, 92, 61);
+     font-family: 'Sulphur Point', sans-serif;
+    }
+
+ .submit-button:hover {
+    background: rgb(160, 57, 31);
+    border: 1px solid rgb(219, 92, 61);
+ }
+
+ .submit-button:focus {
+    background: rgb(241, 105, 71);
+    border: 1px solid rgb(219, 92, 61);
+ }

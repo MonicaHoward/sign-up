@@ -14,3 +14,13 @@
     font-size: 1.5em;
     margin: 5%;
 }
+
+#reg-form {
+    background: #FCBFB0;
+    height: 100vh;
+}
+
+.main {
+    margin: 15%;
+    
+}

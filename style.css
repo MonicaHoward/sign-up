@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap');
+
+#img-asset {
+    background: url("https://images.pexels.com/photos/3254429/pexels-photo-3254429.jpeg");
+    background-color: rgb(252, 176, 157);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Black Han Sans', sans-serif;
+    height: 100vh;
+}
+
+#img-asset h1 {
+    color: rgb(241, 105, 71);
+    font-size: 1.5em;
+    margin: 5%;
+}

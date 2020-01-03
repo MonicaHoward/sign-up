@@ -70,3 +70,17 @@
     background: rgb(241, 105, 71);
     border: 1px solid rgb(219, 92, 61);
  }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .main, .registration {
+        text-align: center;
+    }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    #img-asset {
+        background: url('https://images.pexels.com/photos/1048033/pexels-photo-1048033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        height: 30vh;
+    }
+  }
